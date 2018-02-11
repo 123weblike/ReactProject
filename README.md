@@ -1,7 +1,8 @@
 # ReactProject
 ## react技术栈
 - react react-router4 redux react-redux
-##初始化package.json
+
+## 初始化package.json
 ````
 $ npm init -y
 ````
