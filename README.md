@@ -33,3 +33,10 @@ $ npm install express -S
 "start","webpack-dev-server --port 5000 --open --progress --colors"
 "build","webpack -p"
 ````
+## 目录结构
+- components 组件  木偶组件
+- containers 页面组件,或者自己的subpage目录下
+   - Home
+      - subpage  智能组件
+      - index.js
+- index.js  用来控制显示哪一个页面
