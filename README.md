@@ -50,3 +50,12 @@ $ npm install swipe-js-iso react-swipe
 - action 用户发布动作
 - reducer 定义规则的
 - action-type action的名字
+
+## extract-text-webpack-plugin
+- 抽取css的以link标签引入
+
+## postcss-loader
+- 添加前缀
+
+## 配置多入口 verdor
+- 抽离第三方库
