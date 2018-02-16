@@ -28,6 +28,10 @@ $ npm install es6-promise whatwg-fetch -dev
 ````
 $ npm install express -S
 ````
+## swipe插件
+````
+$ npm install swipe-js-iso react-swipe
+````
 ## scripts
 ````
 "start","webpack-dev-server --port 5000 --open --progress --colors"
@@ -40,3 +44,9 @@ $ npm install express -S
       - subpage  智能组件
       - index.js
 - index.js  用来控制显示哪一个页面
+
+
+- store onlyone
+- action 用户发布动作
+- reducer 定义规则的
+- action-type action的名字
