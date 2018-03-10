@@ -1,0 +1,36 @@
+.carousel{
+  ul{
+    display: flex;
+    flex-wrap: wrap; //横排列
+  }
+  a{width: 20%;
+   li{
+     width: 100%;
+   }
+  }
+  li{
+    i{
+      font-size: 20px;
+      color: #e9203d;
+    }
+    display: flex;
+    flex-direction: column; //竖排列
+    width: 20%;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+.dots{
+  display: flex;
+  justify-content: center;  //绝对居中
+  li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 10px  5px;
+    background: #ccc;
+  }
+  .active{
+    background: #e9203d;
+  }
+}
